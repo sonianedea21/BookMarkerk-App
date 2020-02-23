@@ -67,7 +67,7 @@ function saveBookmark(e){
 function deleteBookmark(url){
     // Get bookmarks from Local Storage 
     var bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
-    // Loop throught bookmarks 
+    // Loop through bookmarks 
     for (var i = 0; i < bookmarks.length; i++){
         if (bookmarks[i].url == url){
             // Remove from array 
